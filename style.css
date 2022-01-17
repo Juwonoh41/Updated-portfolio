@@ -84,10 +84,12 @@ main {
   margin-top: 20px;
   margin-bottom: 45px;
 }
-
+#surf{
+  background-image: url("Big-Waves.jpg");
+}
 .hero-banner {
-  background: rgb(192,192,192);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  
+  background-image: url("Big-Waves.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
